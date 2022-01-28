@@ -1,244 +1,336 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>KELAS INTEGER SEMESTER 4</title>
-    <link rel="icon" type="image/png" href="favicon.png"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    #more {display: none;}
+  <title>KELAS INTEGER SEMESTER 4</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    #more {
+      display: none;
+    }
+
+    #header {
+      color: black;
+      text-align: center;
+      font-size: 20px;
+      transition: 0.4s;
+    }
+
     .tim {
-        border-radius: 15px;
-        margin: auto;
-        text-align: center;
-        font-family:Poppins;
-        color:white;
-        padding: auto;
-        
+      border-radius: 15px;
+      margin: auto;
+      text-align: center;
+      font-family: Poppins;
+      color: white;
+      padding: auto;
+
     }
 
     .matkul {
-        background-color: #476072;
-        color: whitesmoke;
-        border: 2px solid rgb(29, 43, 53);
-        border-radius: 15px;
-        margin: 10px;
-        padding: 15px;
+      background-color: #476072;
+      color: whitesmoke;
+      border: 3px solid rgb(29, 43, 53);
+      border-radius: 15px;
+      margin: 10px;
+      padding: 15px;
     }
 
     .button {
-        transition-duration: 0,4s;
-        font-family:Poppins;
-        padding: 15px 25px;
-        font-size: 24px;
-        text-align: center;
-        cursor: pointer;
-        outline: none;
-        color: White;
-        background-color: #548CA8;
-        border: none;
-        border-radius: 30px;
-        display: inline-block;
-        margin: 6px 3px;
+      transition-duration: 0, 4s;
+      font-family: Poppins;
+      padding: 10px 20px;
+      font-size: 22px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: White;
+      background-color: #548CA8;
+      border: none;
+      border-radius: 30px;
+      display: inline-block;
+      margin: 6px 3px;
     }
 
     .button:hover {
-        background-color: #EEEEEE;
-        color: #476072;
+      background-color: #bbd9ee;
+      color: #476072;
     }
 
     .button:active {
-        background-color: #EEEEEE;
-        color: #476072;
-        box-shadow: 0px 5px 10px rgb(41, 53, 61);
-        transform: translateY(4px);
+      background-color: #bbd9ee;
+      color: #476072;
+      box-shadow: 0px 5px 10px rgb(41, 53, 61);
+      transform: translateY(4px);
     }
 
-    .matkul:hover{
-        border: 2px solid rgb(255, 255, 255);
+    .matkul:hover {
+      border: 3px solid rgb(255, 255, 255);
     }
-    </style>
-    
-</head> 
+  </style>
+
+</head>
 
 <body style="background-color: #334257;">
 
-<h1 style="text-align: center;font-family:Poppins;color:white" >GRUP KELAS TEKNIK INFORMATIKA ANGKATAN 2020<br><br>(SEMESTER 4)</h1>
-<br>
+  <div id="header"><h1 style=" text-align: center;font-family:Poppins;color:white">GRUP KELAS TEKNIK INFORMATIKA ANGKATAN
+    2020<br><br>(SEMESTER 4)</h1></div>
+  <!-- <h1 style=" text-align: center;font-family:Poppins;color:white">GRUP KELAS TEKNIK INFORMATIKA ANGKATAN
+    2020<br><br>(SEMESTER 4)</h1> -->
+  <br>
 
-<div class="matkul">
-<h2 style="font-family:Poppins;">Bahasa Inggris II</h2>
+  <script>
+    // When the user scrolls down 50px from the top of the document, resize the header's font size
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+        document.getElementById("header").style.fontSize = "16px";
+      } else {
+        document.getElementById("header").style.fontSize = "20px";
+      }
+    }
+  </script>
+
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Bahasa Inggris II</h2>
     <form>
-        <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CfjIb1cFmwM54tX5PKAUGn');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/GpxnEYbywWH66DYIVTv5p0');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FR4z3SMALumKYpQcOXiY25');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FxCZVvYfdEO5wWdbvzgYT1');" value="Kelas D" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/F6K6zYX0rW7CFJMkgFlkgF');" value="Kelas E" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/LSRjZsS4J7CIa8C3SEDCio');" value="Kelas F" />
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/EmVzyCfjZEl1ocLMeum3KX');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/GAy3uscGtcO4IkZsG3aJg9');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/DnAPjZLr6RS0ZiPTFuwtwa');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/JoTUo2CHDpa12fVU4giJjs');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Dhozkc7i930EojiBYmvEUI');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KLHwiTZUCYJLOG2DkOXNzt');"
+        value="Kelas F" />
     </form>
-</div>
+  </div>
 
-<div class="matkul">
-<h2 style="font-family:Poppins;">Rekayasa Perangkat Lunak</h2>
-  <form>
-    <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/JAN2Hpz39QF7JleKfKlauP');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/BzqHM4fXXD3633Y5GP9sQ5');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Boo1gFUVzn1L4Q6qyADpMK');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/F1KAOtCJOSN8AlvnctVStO');" value="Kelas D" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KgmMhwdhwzbAyfiBLRfZep');" value="Kelas E" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CIcX0bYOAnC1HeJjruceLJ');" value="Kelas F" />
-    </form>
-</div>
-
-<div class="matkul">
-<h2 style="font-family:Poppins;">Pemrograman Web</h2>
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Rekayasa Perangkat Lunak</h2>
     <form>
-        <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Dgwr0O31gdbE6aIO0YH4m6');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Dt2rbGmKYxGJpCTyMgB5jZ');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/DQjvvguIPML19kir3ZbhYy');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CynljsY4QsbHCGhJ9vsiCR');" value="Kelas D" />
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/LQrPq5t8rV3D1xSJAKpcO6');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/IEriNE86ritDvNBkwDK2Wf');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/D01amp4kabSD7r8JXG2S5M');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Dm8fXo762I32MqSzTGf65r');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/EFDHqtxRUHFG0VNWruM4Fi');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Cr9jNZnzotKHGjGNERHJaW');"
+        value="Kelas F" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CUFN9c0lMrAAmUMiCR93ZE');"
+        value="Kelas G" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/B58On6jMg6WD20waDNsDOG');"
+        value="Kelas H" />
     </form>
-</div>
+  </div>
 
-<div class="matkul">
-<h2 style="font-family:Poppins;">Jaringan Komputer</h2>
-<form>
-    <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/DoOHzLj590U4Zb0yPdZDOi');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/EyluhLln00YILQz4Kc2knA');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Cj36QRWbvhKDTf1a4n2jUU');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/DHXnHynY1rr1joSHbhQZ7M');" value="Kelas D" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KHiPjb2SOxC9O9xLgIDB4t');" value="Kelas E" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/EnbiaVRYCwXFjFQwfptrMX');" value="Kelas F" />
-    </form>
-</div>
-
-<div class="matkul">
-<h2 style="font-family:Poppins;">Grafik Komputer</h2>
-<form>
-    <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FAdqGI7Md8L27WL1O9nlWi');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FTCaA6UITRI7RwsbKW7aqR');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FlzrCLV8KWBEthLMcnPuHW');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KFNRjFGwHO0IB9uA5c7GZW');" value="Kelas D" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FfHY2r33N4HLRCvZNU4Cvc');" value="Kelas E" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/JLmFv8UEc9NLOqb1E69YRZ');" value="Kelas F" />
-    </form>
-</div>
-
-<div class="matkul">
-<h2 style="font-family:Poppins;">Artificial Intelligence</h2>
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Pemrograman Web</h2>
     <form>
-        <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/G7fqwrqb9j384wpP1x1C9s');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/C5Qj8hrNFoMChrBITaM97e');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KWAd1exNsVPLXEy6bEv0td');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KXEXn06D8uZ1g52VgI1ERY');" value="Kelas D" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Jb1Gv55B5mLFcTvMHenpdz');" value="Kelas E" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/G29HvycJ1tY8JbBiQYc77t');" value="Kelas F" />
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/EFgrRJCddve1IRrYdHQnxN');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/JcOsqXoZuNICCecqsxB6vF');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/GU0Lms3jz3p3sxCSJcQnxI');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KNcHzfvcUyL8294eXB8iMh');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CzBxsOvEoZQ6uRoyEgxBdm');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CzCKgvYNL7J1Gjqt2LM4NO');"
+        value="Kelas F" />
     </form>
-</div>
+  </div>
 
-<div class="matkul">
-<h2 style="font-family:Poppins;">Praktikum Rekayasa Perangkat Lunak</h2>
-<form>
-    <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CA380BI7OVc529fsEgPNyS');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/GNsP0K7XMyu4PEV4mk4QNR');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CaymW4rX9tT1DiyoRxcn2c');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/IJW8TNonspkEDPys8ET9Ye');" value="Kelas D" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/GdK40hN4teiAyc7qUh4VjM');" value="Kelas E" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/IVWUjgKuZuR7LLDOhAOcw9');" value="Kelas F" />
-    </form>
-</div>
-
-<div class="matkul">
-<h2 style="font-family:Poppins;">Praktikum Pemrograman Web</h2>
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Jaringan Komputer</h2>
     <form>
-        <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KZKZ7Gpe5qfG6RWFJHU8fr');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/HVHUfCRjner6gqTnVunfK1');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FMWpyN7KT893TGhV5SocK8');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Du7mK5vTiHlAdsK687ApJa');" value="Kelas D" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/GKkpO50FBxBJXlrBXXWM3g');" value="Kelas E" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/DHuzlwrRuTuERAPYXsL90G');" value="Kelas F" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/HoChD0ADgbiKvpl9f7SayS');" value="Kelas G" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/HFH2cqoRnCk2MtnKybdfS3');" value="Kelas H" />
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/DccrtUwlXHuD6La22iygwH');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/E4jBaX0pYShBdfOAx1Whfj');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KKswNbgy86jAB2ze0k0jFK');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FLp1gdS4UVo9z1TbSehSwP');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KUbdBvx3yTr4mHeB2lusle');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/H09V9Pol1lMLbj5KBh3VDJ');"
+        value="Kelas F" />
     </form>
-</div>
+  </div>
 
-<div class="matkul">
-<h2 style="font-family:Poppins;">Praktikum Jaringan Komputer</h2>
-<form>
-    <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/C57eBoRpF7HK9qNiUulTdd');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/DjK5j2CDuKWJcXitdYtPUa');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KRpsmt4OXBO7yLrJdJ63fE');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Ftr6luIFoxpGhMg4rLegS4');" value="Kelas D" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/GyVwFUQIWE85hvkfOdT5Ms');" value="Kelas E" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/BCRuR4zEznRD1fy5TpKktI');" value="Kelas F" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/GQdw8iAE6nB9fAnQK4NK2n');" value="Kelas G" />
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Grafik Komputer</h2>
+    <form>
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/EXwaDlzpfk2DuvefJ5NTqV');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/EhLP3eRWTgyLPsLhrpoLb2');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FP7ljSIGSw3Joxg4MbLy5x');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/JfV5TeAB7lt8CFk3mW9rUg');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/HG3NMdMBCxTImWSzaGh3Qa');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/LTGvpvg0qDXEXXZ4q5nAzX');"
+        value="Kelas F" />
     </form>
-</div>
+  </div>
 
-<div class="matkul">
-<h2 style="font-family:Poppins;">Praktikum Grafik Komputer</h2>
-<form>
-    <hr>
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/BtIaZ1BUTxQHQc2KwLc5nn');" value="Kelas A" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/IdDcw3EfXifIfgi6mWtzq9');" value="Kelas B" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/H9OgBRFQRSU3jc5W0IZzZd');" value="Kelas C" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/By4Q5ABoaR0BG0uKtnXt1C');" value="Kelas D" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/JBNhPGF4Kee53U1sEfPbcq');" value="Kelas E" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/HpAJO422cuD2n8ntsPNKot');" value="Kelas F" />
-      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/FOaWTAXLDPQBmN8D3xxrtH');" value="Kelas G" />
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Artificial Intelligence</h2>
+    <form>
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Gz95X8ddyge8G8KYd0i0kH');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/H7vPghwqAd23fGU4JYiiDD');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Brf4uXT7cROEwNqqymhWzY');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/JMeUeiNsYyUCADpRIkbdvv');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Fr9jfEdpNx5AEdlIKSzIiC');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/JkGmFYTYPMc8nwOlwwNU0M');"
+        value="Kelas F" />
     </form>
-</div>
+  </div>
 
-<br>
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Praktikum Rekayasa Perangkat Lunak</h2>
+    <form>
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/DgpAul26zzt92praPVFQwa');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/LKZ9awKINOeB3gUdoDcO3o');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Cvu1PevBegp9T0NZ035ZZx');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/LgzM8cea5TY3rH0sSvErCQ');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/H1DT51RAKH04Mlei9Ut9OU');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/C0raSSg0QBgLODID8g3Hke');"
+        value="Kelas F" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CpKVxbQPbNwK0J9pbxkuO2');"
+        value="Kelas G" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Eg6y8cA6gxn2bH3SeUdhlb');"
+        value="Kelas H" />
+    </form>
+  </div>
 
-<div class="tim">
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Praktikum Pemrograman Web</h2>
+    <form>
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/L5W1LRjle6zEl8ecV5os0Z');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/LFiuodCpzNiI99LvP6J5wF');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CaumBhj0Cyk0Dr7cLlySyR');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/BjWp8N0WA10Lue6pReqqzg');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Cgf3YqCQ06IIIhT3QCTzpB');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/I3UYJ7wdUBh9IYad4Wx5iW');"
+        value="Kelas F" />
+    </form>
+  </div>
+
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Praktikum Jaringan Komputer</h2>
+    <form>
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/IP0YZXcI97RFNq0BEmzRvH');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KclUJ9ThEWx3mb7P0MZzJC');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/ILKJBZ4mSfsATBrUmVssRC');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/BId2bLKZJU80DOSMwvozSn');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CuqcD8s6znQDBilbG0td1Y');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/EULdtY2igeE5vLI9cGd5UT');"
+        value="Kelas F" />
+    </form>
+  </div>
+
+  <div class="matkul">
+    <h2 style="font-family:Poppins;">Praktikum Grafik Komputer</h2>
+    <form>
+      <hr>
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/I9NYryQOasZHM2jXF5YyXB');"
+        value="Kelas A" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/Evmidxno2cq8SUf6DZGTB9');"
+        value="Kelas B" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/LTotw6AjgfO096SlHvr7q3');"
+        value="Kelas C" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/CCq9GwycCINLZX0GTHPRI8');"
+        value="Kelas D" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/GMoxrY5PJv2EE7C3LLty3j');"
+        value="Kelas E" />
+      <input class="button" type="button" onclick="window.open('https://chat.whatsapp.com/KNbZU65ZDMIHuzyVfNApii');"
+        value="Kelas F" />
+    </form>
+  </div>
+
+  <br>
+
+  <div class="tim">
     <h4><a onclick="myFunction()" id="myBtn" style="cursor:pointer">Supported by</a></h4>
     <form>
-        <hr style="width:15%;text-align:center;">
-        <h5><span id="dots"> </span><span id="more" style="font-family:Poppins;color:white;">
-            A. Shohibul Aqshal Radanta
-            <br>Achmad Nur Aqmali
-            <br>Naufal Bakhtiar ismail
-            <br>Imroatus Tsaany Maghfira
-            <br>Firyal Nabila Zalfa
-            <br>Tata Farindra Ayuningtyas
-<!--             <br>Rafi Aulia Prasetya -->
-<!--             <br>Achmad Choirul Huda -->
-            
-            </span></h5>
-            
-            
-            <script>
-            function myFunction() {
-              var dots = document.getElementById("dots");
-              var moreText = document.getElementById("more");
-              var btnText = document.getElementById("myBtn");
-            
-              if (dots.style.display === "none") {
-                dots.style.display = "block";
-                btnText.innerHTML = "Supported by"; 
-                moreText.style.display = "none";
-              } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Thanks to all"; 
-                moreText.style.display = "block";
-              }
-            }
-            </script>
-        </form>
-    </div>
+      <hr style="width:15%;text-align:center;">
+      <h5><span id="dots"> </span><span id="more" style="font-family:Poppins;color:white;">
+          200605110002
+          <br>200605110036
+          <br>200605110105
+          <br>200605110107
+          <br>200605110111
+          <br>200605110115
+          <br>200605110117
+          <br>200605110142
+        </span></h5>
+
+      <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+
+          if (dots.style.display === "none") {
+            dots.style.display = "block";
+            btnText.innerHTML = "Supported by";
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Thanks to ...";
+            moreText.style.display = "block";
+          }
+        }
+      </script>
+    </form>
+  </div>
 
 
-<br>
-    <p style="text-align: center;font-size:70%;color: white;"><b>Copyright</b> © TI'20 - INTEGER <br> - 2022 - </p>
+  <br>
+  <p style="text-align: center;font-size:70%;color: white;"><b>Copyright</b> © TI'20 - INTEGER <br> - 2022 - </p>
 
 </body>
+
 </html>
